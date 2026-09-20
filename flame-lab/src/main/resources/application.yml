@@ -1,0 +1,17 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  application:
+    name: flame-lab
+  datasource:
+    # In-process SQLite; the database file lives next to the service by default.
+    url: jdbc:sqlite:${FLAMELAB_DB_PATH:flamelab.db}
+    driver-class-name: org.sqlite.JDBC
+    hikari:
+      # SQLite serializes writers; a single connection keeps the store deterministic.
+      maximum-pool-size: 1
+  sql:
+    init:
+      mode: always
+      encoding: UTF-8
