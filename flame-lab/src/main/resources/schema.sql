@@ -17,3 +17,22 @@ CREATE TABLE IF NOT EXISTS jobs (
     error_message          TEXT,
     created_at             TEXT    NOT NULL
 );
+
+CREATE TABLE IF NOT EXISTS inverse_jobs (
+    id                     INTEGER PRIMARY KEY,
+    label                  TEXT,
+    fuel                   TEXT    NOT NULL,
+    intake_temperature     REAL    NOT NULL,
+    target_temperature     REAL    NOT NULL,
+    requested_side         TEXT    NOT NULL,
+    status                 TEXT    NOT NULL,
+    temperature_tolerance  REAL    NOT NULL,
+    max_outer_steps        INTEGER NOT NULL,
+    peak_equivalence_ratio REAL,
+    peak_temperature       REAL,
+    lean_result            TEXT,
+    rich_result            TEXT,
+    error_type             TEXT,
+    error_message          TEXT,
+    created_at             TEXT    NOT NULL
+);

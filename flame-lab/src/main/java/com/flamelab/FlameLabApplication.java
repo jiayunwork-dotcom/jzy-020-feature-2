@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import com.flamelab.inverse.InverseProperties;
 import com.flamelab.solver.SolverProperties;
 import com.flamelab.thermo.ThermoLimits;
 
@@ -24,5 +25,11 @@ public class FlameLabApplication {
     @Bean
     SolverProperties solverProperties() {
         return SolverProperties.pinned();
+    }
+
+    /** Pinned controls for the outer equivalence-ratio search of the inverse solve. */
+    @Bean
+    InverseProperties inverseProperties() {
+        return InverseProperties.pinned();
     }
 }

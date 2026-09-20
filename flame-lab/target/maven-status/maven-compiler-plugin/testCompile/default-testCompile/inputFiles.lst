@@ -1,0 +1,7 @@
+/workspace/flame-lab/src/test/java/com/flamelab/api/InverseApiTest.java
+/workspace/flame-lab/src/test/java/com/flamelab/api/JobApiTest.java
+/workspace/flame-lab/src/test/java/com/flamelab/api/ParallelInverseJobsTest.java
+/workspace/flame-lab/src/test/java/com/flamelab/api/ParallelJobsTest.java
+/workspace/flame-lab/src/test/java/com/flamelab/balance/ElementBalancerTest.java
+/workspace/flame-lab/src/test/java/com/flamelab/inverse/InverseSolverTest.java
+/workspace/flame-lab/src/test/java/com/flamelab/solver/FlameSolverTest.java

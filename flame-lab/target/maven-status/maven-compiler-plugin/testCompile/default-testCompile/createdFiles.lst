@@ -1,0 +1,9 @@
+com/flamelab/api/InverseApiTest.class
+com/flamelab/api/ParallelInverseJobsTest$Case.class
+com/flamelab/api/ParallelJobsTest.class
+com/flamelab/balance/ElementBalancerTest.class
+com/flamelab/solver/FlameSolverTest.class
+com/flamelab/api/JobApiTest.class
+com/flamelab/inverse/InverseSolverTest.class
+com/flamelab/api/ParallelJobsTest$Case.class
+com/flamelab/api/ParallelInverseJobsTest.class
