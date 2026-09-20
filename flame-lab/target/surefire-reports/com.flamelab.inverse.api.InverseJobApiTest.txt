@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.flamelab.inverse.api.InverseJobApiTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.058 s -- in com.flamelab.inverse.api.InverseJobApiTest
